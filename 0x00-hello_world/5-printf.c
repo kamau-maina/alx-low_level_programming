@@ -1,12 +1,12 @@
 /*
-  *File: 5-printf.c
-  *Auth:Kamau Maina <mainkamjames@gmail.com>
+  * File: 5-printf.c
+  * Auth:Kamau Maina 
   */
 #include <stdio.h>
 /**
- * main -starting point of the programme.prints with proper grammar, but the 
- *          outcome is a piece of art,
- *Return: Always 0.
+ * main - starting point of the programme. prints "with proper grammar, but the 
+ *          outcome is a piece of art,"followed by a new line.
+ * Return: Always 0.
  */
 int main(void)
 {
