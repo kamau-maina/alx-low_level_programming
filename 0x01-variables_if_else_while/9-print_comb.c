@@ -1,6 +1,6 @@
 /*
  * File: 9-print_comb.c
- * Auth: Kamau Manina
+ * Auth: Kamau Maina
  */
 
 #include <stdio.h>
