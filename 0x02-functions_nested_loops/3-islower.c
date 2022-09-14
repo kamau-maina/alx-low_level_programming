@@ -8,13 +8,14 @@
 /**
  * _islower -checks whether a character is lowercase.
  * Return: 1 if the character is lowercase, 0 otherwise.
+ *@c: the character to be checked
  */
 int _islower(int c)
 {
-	if(c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
 	else
-		return 0;
+		return (0);
 }
