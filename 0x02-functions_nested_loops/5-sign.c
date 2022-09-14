@@ -2,6 +2,7 @@
  * File: 5-sign.c
  * Auth: Kamau Maina
  */
+
 #include "main.h"
 
 /**
@@ -32,9 +33,3 @@ int print_sign(int n)
 }
 
 
-
-
-
-
-
-}
