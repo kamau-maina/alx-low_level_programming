@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 10x the numbers 0 through 14 followed by a new line
+ * more_numbers - prints 10x the numbers 0-14 and a new line
  */
 
 void more_numbers(void)
