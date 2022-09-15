@@ -12,7 +12,6 @@
 
 void print_diagonal(int n)
 {
-	{
 	int length, space;
 
 	if (n > 0)
