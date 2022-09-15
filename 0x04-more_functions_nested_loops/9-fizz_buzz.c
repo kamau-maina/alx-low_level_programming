@@ -1,4 +1,5 @@
-/* File: 9-fizz_buzz.c
+/* 
+ * File: 9-fizz_buzz.c
  * Auth: Kamau Maina
  */
 
