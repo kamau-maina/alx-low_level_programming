@@ -6,12 +6,13 @@
 #include "main.h"
 
 /**
- * add - adds two integers
- * Return: sum of the two integers
+ * add - Adds two integers.
+ * @num1: The first integer to be added.
+ * @num2: The second integer to be added.
+ *
+ * Return: The result of the addition.
  */
-int add(int,int)
+int add(int num1, int num2)
 {
-	int a,b,sum;
-	sum=a+b;
-	return (sum);
+	return (num1 + num2);
 }
