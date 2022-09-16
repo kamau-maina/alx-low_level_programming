@@ -1,3 +1,8 @@
+/*
+ * File: 0-main
+ * Auth: Kamau Maina
+ */
+
 #include "main.h"
 
 /**
