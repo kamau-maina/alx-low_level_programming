@@ -13,7 +13,7 @@
 int main(void)
 {
 	int i;
-	if (i != 0)
+	if (i > 0)
 	{
 
 	i=98;
