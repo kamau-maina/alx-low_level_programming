@@ -1,4 +1,3 @@
-
 /*
  * File: 9-strcpy.c
  * Auth: Kamau Maina
