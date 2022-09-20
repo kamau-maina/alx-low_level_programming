@@ -11,7 +11,7 @@
  * Return: The string to check the length of
  */
 
-int _strlen(const char *s)
+size_t _strlen(const char *s)
 {
 	size_t length = 0;
 
