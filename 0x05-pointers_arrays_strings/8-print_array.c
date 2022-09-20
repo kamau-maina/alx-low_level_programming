@@ -1,9 +1,10 @@
 /*
- * File: 7-puts_half.c
+ * File: 8-print_array.c
  * Auth: Kamau Maina
  */
 
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - Prints an inputted number of elements
