@@ -1,13 +1,29 @@
 /*
- * File: 6-cap_string.c
- * Auth:Kamau Maina
+ * File: 6-string_toupper.c
+ * Auth: Kamau Maina
  */
 
 #include "main.h"
 
 /**
- * cap_string - capitalizes all words of a string.
- * @str: the string to be capitalised.
- * Return: A pointer to the capitalised string.
+ * string_toupper - changes all lowercase letters to uppercase.
+ * @str: the string to be converted.
+ * Return: A pointer to the changed string.
  */
+
+char *string_toupper(char *str)
+{
+        int index = 0;
+
+        while (str[index])
+        {
+                if (str[index] >= 'a' && str[index] <= 'z')
+                {
+                        str[index] -= 32;
+                }
+                index++;
+        }
+        return (str);
+}
+
 
