@@ -10,7 +10,6 @@
  * @n: the number of elements of the array
  * @a: the array of integers to be reversed
  */
-
 void reverse_array(int *a, int n)
 {
 	int temp, index;
@@ -19,9 +18,6 @@ void reverse_array(int *a, int n)
 	{
 		temp = a[n - 1 - index];
 		a[n - 1 - index] = a[index];
-		a[index] = tmp;
+		a[index] = temp;
 	}
 }
-
-
-
