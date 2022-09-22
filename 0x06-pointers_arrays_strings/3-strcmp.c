@@ -14,7 +14,7 @@
  *	   if s1 > s2, positive number of chars different.
  */
 
- int _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	while (*s1 && *s2 && *s1 == *s2)
 	{
