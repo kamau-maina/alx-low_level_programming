@@ -13,19 +13,19 @@
  */
 char *leet(char *str)
 {
-	int indx1 = 0, indx2;
+	int index = 0, index1;
 	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (str[indx1])
+	while (str[index])
 	{
-		for (indx2 = 0; indx2 <= 7; indx2++)
+		for (index1 = 0; index1 <= 7; index1++)
 		{
-			if (str[indx1] == leet[indx2] ||
-			    str[indx1] - 32 == leet[indx2])
-				str[indx1] = indx2 + '0';
+			if (str[index] == leet[index1] ||
+			    str[index] - 32 == leet[index1])
+				str[index] = index1 + '0';
 		}
 
-		indx1++;
+		index++;
 	}
 
 	return (str);
