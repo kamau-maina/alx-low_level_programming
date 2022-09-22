@@ -1,5 +1,5 @@
 /*
- * File: 6-string_toupper.c
+ * File: 5-string_toupper.c
  * Auth: Kamau Maina
  */
 

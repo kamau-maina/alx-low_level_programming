@@ -17,9 +17,9 @@ char *string_toupper(char *str)
 
 	while (str[index])
 	{
-		if (str[index] >= 'A' && str[index] <= 'Z')
+		if (str[index] >= 'a' && str[index] <= 'z')
 		{
-			str[index] += 32;
+			str[index] -= 32;
 		}
 		index++;
 	}
