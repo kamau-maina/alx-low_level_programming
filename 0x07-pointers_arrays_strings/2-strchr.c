@@ -6,7 +6,7 @@
 #include "main.h"
 
 /*
- * *_strchr - returns a pointer to the first occurrence
+ * _strchr - returns a pointer to the first occurrence
  *		of a character @c in a string @s.
  *@s: the string to be checked
  *@c: the character to search for
