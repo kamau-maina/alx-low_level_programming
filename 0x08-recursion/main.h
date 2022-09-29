@@ -9,5 +9,5 @@
  */
 
 int _putchar(char c);
-void 0-puts_recursion(char *s);
+void _puts_recursion(char *s);
 #endif
