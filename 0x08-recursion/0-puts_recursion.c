@@ -13,14 +13,13 @@
 
 void _puts_recursion(char *s)
 {
-	int index;
-
-	index = 0;
-
-	while (s[index])
+	if (*s)
 	{
-		_putchar(s[index]);
-		index += 1;
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
 }
