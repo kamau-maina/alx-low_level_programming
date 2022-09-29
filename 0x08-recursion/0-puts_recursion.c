@@ -14,9 +14,10 @@
 void _puts_recursion(char *s)
 {
 	int index;
+
 	index = 0;
 
-	while(s[index]);
+	while (s[index])
 	{
 		_putchar(s[index]);
 		index += 1;
