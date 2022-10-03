@@ -8,4 +8,4 @@
  * 	for functions in th 0x0A dir.
  */
 
-int putchar(char c);
+int _putchar(char c);
