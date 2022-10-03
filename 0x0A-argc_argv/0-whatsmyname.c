@@ -7,14 +7,14 @@
 /**
  * main - prints the program name followed by a new line
  * @argc: the number of command line arguments
- * 	  given to the program
+ *	  given to the program
  * @argv: an array of pointers to the arguments
  *Return: always 0.
  */
 
 
 
-int main(int argc, char **argv)
+int main(int__attribute__((__unused__)) argc, char **argv)
 {
 	printf("%s\n", argv[0]);
 	return (0);
