@@ -39,7 +39,7 @@ char *_strdup(char *str)
 
 	for (index = 0; str[index]; index++)
 	{
-		dup[index] = str[index]
+		dup[index] = str[index];
 	}
 	dup[length] = '\0';
 	return (dup);
