@@ -17,27 +17,30 @@
 
 char *_strdup(char *str)
 {
-	char *ptr;
-	int index, length;
+	char *dup;
+	int index, length = 0;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	for (index = 0; str[index]; index++
-		       length++;	
-
-	ptr = malloc(sizeof(char)* (length + 1);
-
 	for (index = 0; str[index]; index++)
 	{
-		ptr[index] = str[index];
+		length++;
 	}
-	if (ptr == NULL)
+
+	dup = malloc((length + 1) * sizeof(char));
+
+	if (dup == NULL)
 	{
 		return (NULL);
 	}
-	return (ptr);
 
+	for (index = 0; str[index]; index++)
+	{
+		dup[index] = str[index]
+	}
+	dup[length] = '\0';
+	return (dup);
 }
