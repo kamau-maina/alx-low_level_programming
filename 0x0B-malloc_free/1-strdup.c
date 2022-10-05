@@ -35,6 +35,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+	ptr[index] = '\0';
 	return (ptr);
 }
 
