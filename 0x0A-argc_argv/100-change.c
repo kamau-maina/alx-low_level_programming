@@ -14,7 +14,7 @@
  *	    0,otherwise.
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
 
@@ -51,6 +51,8 @@ int main(int argc, char **argv)
 		}
 		cents--;
 	}
+
 	printf("%d\n", coins);
+
 	return (0);
 }
