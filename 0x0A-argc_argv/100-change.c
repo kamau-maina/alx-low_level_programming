@@ -1,19 +1,20 @@
 /*
- * File: 100-change.c .
- * Auth: Kamau Maina.
+ * File: 100-change.c
+ * Auth: Kamau Maina
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
-/*
- * main - prints the minimum number of coins to make change
- *	  for an ammount of money
- * @argc: keeps count of arguments passed to main.
- * @argv: an array of pointers to the arguments.
- * Return: -1 if the number of arguments is not exactly 1
- *	    0,otherwise.
+/**
+ * main - Prints the minimum number of coins to
+ *        make change for an amount of money.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
+ *
+ * Return: If the number of arguments is not exactly one, Error, return- 1.
+ *         Otherwise - 0.
  */
-
 int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
