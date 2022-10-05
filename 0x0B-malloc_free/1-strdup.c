@@ -25,9 +25,11 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	
-	if (ptr == malloc(sizeof(str)))
+	ptr == malloc(sizeof(str));
+	if (ptr == NULL)
 	{
-		return (NULL);
+		return (NUL);
+	}
 
 	for (index = 0; str[index]; index++)
 	{
