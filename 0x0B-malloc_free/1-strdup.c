@@ -17,24 +17,24 @@
 
 char *_strdup(char *str)
 {
-        char *ptr;
-        int index;
+	char *ptr;
+	int index;
 
-        if (str == NULL)
-        {
-                return (NULL);
-        }
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
-        ptr = malloc(sizeof(str));
+	ptr = malloc(sizeof(str));
 
-        for (index = 0; str[index]; index++)
-        {
-                ptr[index] = str[index];
-        }
-        if (ptr == NULL)
-        {
-                return (NULL);
-        }
-        return ptr;
+	for (index = 0; str[index]; index++)
+	{
+		ptr[index] = str[index];
+	}
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+	return (ptr);
 
 }
