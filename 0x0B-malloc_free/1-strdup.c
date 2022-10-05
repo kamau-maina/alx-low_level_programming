@@ -26,10 +26,6 @@ char *_strdup(char *str)
 	}
 	
 	ptr == malloc(sizeof(str));
-	if (ptr == NULL)
-	{
-		return (NUL);
-	}
 
 	for (index = 0; str[index]; index++)
 	{
