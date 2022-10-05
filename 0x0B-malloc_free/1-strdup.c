@@ -30,7 +30,6 @@ char *_strdup(char *str)
         for (index = 0; str[index]; index++)
         {
                 ptr[index] = str[index];
-                printf("\n%c\n", ptr[index]);
         }
         if (ptr == NULL)
         {
