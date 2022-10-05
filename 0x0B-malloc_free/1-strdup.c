@@ -17,26 +17,25 @@
 
 char *_strdup(char *str)
 {
-	char *ptr;
-	int index;
+        char *ptr;
+        int index;
 
-	if (str == NULL)
-	{
-		return (NULL);
-	}
-	
-	ptr == malloc(sizeof(str));
+        if (str == NULL)
+        {
+                return (NULL);
+        }
 
-	for (index = 0; str[index]; index++)
-	{
-		ptr[index] = str[index];
-	}
-	if (ptr == NULL)
-	{
-		return (NULL);
-	}
-	return (ptr);
+        ptr = malloc(sizeof(str));
+
+        for (index = 0; str[index]; index++)
+        {
+                ptr[index] = str[index];
+                printf("\n%c\n", ptr[index]);
+        }
+        if (ptr == NULL)
+        {
+                return (NULL);
+        }
+        return ptr;
+
 }
-
-
-
