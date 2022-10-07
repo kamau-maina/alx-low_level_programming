@@ -36,7 +36,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	for (index = 0; index < (size * nmemb); index++)
 	{
-		fill[index] = '0';
+		fill[index] = '\0';
 	}
 
 	return (ptr);
