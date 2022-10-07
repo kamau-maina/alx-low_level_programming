@@ -6,11 +6,11 @@
 #include "main.h"
 #include <stdlib.h>
 
-/*
- * _calloc - allocates memory for an array using malloc.
+/**
+ * _calloc - Allocates memory for an array of elements.
  * @nmemb: The number of elements of the array.
  * @size: The byte size of each array element.
- * Return : Null if nmemb or size = 0 or if func fails.
+ * Return: Null if nmemb or size = 0 or if func fails.
  *	   otherwise, a pointerto the allocated mem space.
  */
 
