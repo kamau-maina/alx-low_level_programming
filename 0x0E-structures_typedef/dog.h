@@ -7,8 +7,8 @@
  * Desc: Header file defining a defined type struct dog.
  */
 
-/*
- * struct dog - a user defined type describing a dog
+/**
+ * struct dog - A user defined type describing a dog.
  * @name: The name of the dog.
  * @age: The age of the dog.
  * @owner: The owner of the dog.
@@ -23,7 +23,7 @@ struct dog
 };
 
 /*
- * my_dog - defined type for dog.
+ * my_dog - defined type for struct dog.
  */
 
 typedef struct dog my_dog;
