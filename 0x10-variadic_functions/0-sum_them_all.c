@@ -18,7 +18,8 @@ int sum_them_all(const unsigned int n, ...)
 	int index;
 	int sum;
 	va_list args;
-
+	if (n == 0)
+		return (0);
 	va_start(args, n)
 	sum = 0;
 	for (; index < n; index++)
