@@ -8,7 +8,7 @@
 #include <stdarg.h>
 
 /**
- * print_strings - prints strings followed by a new line
+ * print_numbers - prints strings followed by a new line
  * @separator:  the string to be printed between the strings
  * @n: the number of strings passed to the function
  */
