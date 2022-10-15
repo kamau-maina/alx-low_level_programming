@@ -3,7 +3,7 @@
  * Auth: Kamau Maina
  */
 
-#include "variadic_functioms.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 
 /**
