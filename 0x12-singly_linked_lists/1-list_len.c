@@ -12,6 +12,7 @@
  *
  * Return: The number of elements in h.
  */
+
 size_t list_len(const list_t *h)
 {
 	size_t elements = 0;
