@@ -1,4 +1,3 @@
-
 /*
  * File: 3-add_node_end.c
  * Auth: Kamau Maina
@@ -26,7 +25,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (new == NULL)
 		return (NULL);
 
-	duplicate= strdup(str);
+	duplicate = strdup(str);
 	if (str == NULL)
 	{
 		free(new);
